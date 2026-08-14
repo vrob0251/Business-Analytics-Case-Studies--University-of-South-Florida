@@ -29,15 +29,29 @@ Click-Through Rate from the order page to adding a food item to the cart.
 
 ## Key Finding
 
-The experiment was evaluated using click-through rate and statistical significance to determine whether one page design performed better than the other.
+Treatment A had a click-through rate of 50.00%, while Treatment B had a click-through rate of 52.13%.
 
-The final decision should not be based on click-through rate alone. Any improvement should also avoid negatively affecting cancellation, dissatisfaction, or abandonment rates.
+The p-value was used to determine whether the difference between the two treatments was statistically significant.
+
+The final decision should not be based on click-through rate alone. Any improvement should also avoid negatively affecting cancellation rate, customer dissatisfaction, or abandonment rate.
+
+## Decision
+
+If the p-value is greater than 0.05, fail to reject the null hypothesis.
+
+If the p-value is less than 0.05, reject the null hypothesis.
 
 ## Business Recommendation
 
-Only implement the higher-performing page design if the difference is statistically significant and the guardrail metrics remain stable.
+Do not implement a new page design based only on a small difference in click-through rate.
+
+The higher-performing treatment should only be implemented if the difference is statistically significant and the guardrail metrics remain stable.
 
 If the results are not statistically significant, additional testing or a larger sample may be needed before making a final decision.
+
+## Analysis File
+
+The Excel workbook used for the experiment analysis is included in this folder and contains the treatment data, click-through rates, hypothesis setup, p-value calculation, and final decision.
 
 ## Skills Demonstrated
 
